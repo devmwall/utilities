@@ -14,7 +14,7 @@ public sealed class Worker(
     {
         var url = "nats://127.0.0.1:4222";
         var subject = "orders.local";
-        var filePath = "C:\\Code\\Files\\Orders.jsonl";
+        var filePath = "C:\\Code\\demos\\OrleansProject\\Files\\Orders.jsonl";
 
         if (string.IsNullOrWhiteSpace(filePath) || !File.Exists(filePath))
         {
